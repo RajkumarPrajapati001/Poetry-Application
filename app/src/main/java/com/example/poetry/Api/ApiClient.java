@@ -26,23 +26,7 @@ public class ApiClient {
         }
         return RETROFIT.create(Apiinterface.class);
     }
-//
-//
-//    public  static  Retrofit getclient() {
-//
-//        if(RETROFIT == null) {
-//
-//            OkHttpClient okHttpClient = new OkHttpClient.Builder().build();
-//
-//            Gson gson = new GsonBuilder().create();
-//
-//            RETROFIT = new Retrofit.Builder()
-//                    .baseUrl("http://172.25.224.1/DataAdd/")
-//                    .client(okHttpClient)
-//                    .addConverterFactory(GsonConverterFactory.create(gson)).build();
-//        }
-//        return  RETROFIT.create(Apiinterface.class);
-//    }
+
 
 
 }
