@@ -3,9 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/bg_shape.xml" value="0.1875" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/border.xml" value="0.1875" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/editview.xml" value="0.1875" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/home_bg.xml" value="0.1685" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1875" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/logo_background.xml" value="0.1685" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/rectangle_bg.xml" value="0.1875" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/drawable/twocolor.xml" value="0.1875" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/layout/activity_account.xml" value="0.25" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
         <entry key="..\:/Android_/poetry/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
-        <entry key="..\:/Android_/poetry/app/src/main/res/layout/poetry_list.xml" value="0.25" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/layout/activity_signup.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/layout/activity_splesh_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/layout/poetry_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447916666666667" />
         <entry key="..\:/Android_/poetry/app/src/main/res/menu/toolbar_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_/poetry/app/src/main/res/xml/home_bg.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
