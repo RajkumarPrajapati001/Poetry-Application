@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<PoetryModel>> call, Throwable t) {
-//            Log.e("fail",t.getLocalizedMessage());
+            Log.e("fail",t.getLocalizedMessage());
             }
         });
 

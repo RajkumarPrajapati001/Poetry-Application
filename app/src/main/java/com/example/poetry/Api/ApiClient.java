@@ -20,7 +20,7 @@ public class ApiClient {
                     .setLenient()
                     .create();
             RETROFIT = new Retrofit.Builder()
-                    .baseUrl("http://172.24.64.1/DataAdd/")
+                    .baseUrl("http://192.168.23.29/DataAdd/")
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .build();
         }

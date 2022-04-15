@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatButton;
@@ -16,7 +15,6 @@ import com.example.poetry.Api.ApiClient;
 import com.example.poetry.Api.Apiinterface;
 import com.example.poetry.Models.PoetryModel;
 import com.example.poetry.R;
-import com.example.poetry.Response.Deletereponse;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +22,8 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
-public class PoetryAdapters extends RecyclerView.Adapter<PoetryAdapters.ViewHolder>{
+ public class PoetryAdapters extends RecyclerView.Adapter<PoetryAdapters.ViewHolder>{
 
     Context context;
     List<PoetryModel> poetryModels;
@@ -72,8 +69,8 @@ public class PoetryAdapters extends RecyclerView.Adapter<PoetryAdapters.ViewHold
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            poetryname = itemView.findViewById(R.id.txtpoetryName);
-            poerty = itemView.findViewById(R.id.txtpoetryData);
+            poetryname = itemView.findViewById(R.id.txtpoetryData);
+            poerty = itemView.findViewById(R.id.txtpoetryName);
             date_time = itemView.findViewById(R.id.txtpoetryDateandTime);
             update = itemView.findViewById(R.id.btnpoetryUPDATE);
             delete = itemView.findViewById(R.id.btnpoetryDELETE);
@@ -100,7 +97,7 @@ public class PoetryAdapters extends RecyclerView.Adapter<PoetryAdapters.ViewHold
 
             @Override
             public void onFailure(Call<List<PoetryModel>> call, Throwable t) {
-//                Log.e("fail", t.getLocalizedMessage());
+                Log.e("fail", t.getLocalizedMessage());
             }
         });
     }
